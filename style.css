@@ -1,138 +1,138 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 /* Variables */
 
-:root{
---softblue: hsl(215, 51%, 70%);
---cyan: hsl(178, 100%, 50%);
---bg-main: hsl(217, 54%, 11%);
---bg-card: hsl(216, 50%, 16%);
---cl-line: hsl(215, 32%, 27%);
---white: hsl(0, 0%, 100%);
---fs: 1.125rem;
---ff: 'Outfit', sans-serif;
---fw-light: 300;
---fw-normal:400;
---fw-bold: 600;
+:root {
+  --softblue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --cl-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --fs: 1.125rem;
+  --ff: "Outfit", sans-serif;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 600;
 }
 /* CSS Reset */
-html{
-    box-sizing: border-box;
-    color: #fff;
-    font-size: var(--fs);
-    font-family: var(--ff);
+html {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: var(--fs);
+  font-family: var(--ff);
 }
 *,
 *::before,
-*::after{
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-.nft__pic{
-   border-radius: 6px;
-}
-
-body{
-    background-color:var(--bg-main);
-}
-main{
-    padding: 1.5rem;
-    background-color:var(--bg-main);
-    min-height: 100vh;
-    display: grid;
-    place-content: center;
-}
-.card{
-    max-width:327px;
-    background-color: var(--bg-card);
-    border-radius: 12px;
-    padding: 1.5rem;
-}
-.card__nft{
-    overflow: hidden;
-    display: grid;
-    gap: 1rem;
-}
-.card__title{
-    font-size: 1.25rem;
-    font-weight: var(--fw-bold);
-    color: var(--white);
+.nft__pic {
+  border-radius: 6px;
 }
 
-.card__desc{
-    font-weight: var(--fw-light);
-    color: var(--softblue);
-    font-size: 0.95rem;
-    line-height: 1.5rem;
+body {
+  background-color: var(--bg-main);
 }
-.card__details{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+main {
+  padding: 1.5rem;
+  background-color: var(--bg-main);
+  height: 100vh;
+  display: grid;
+  place-content: center;
 }
-.desc{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.95rem;
-    font-weight: var(--fw-normal);
+.card {
+  max-width: 327px;
+  background-color: var(--bg-card);
+  border-radius: 12px;
+  padding: 1.5rem;
 }
-.prize{
-    color: var(--cyan);
+.card__nft {
+  overflow: hidden;
+  display: grid;
+  gap: 1rem;
 }
-.duration{
-    color: var(--softblue);
-}
-.icon{
-    width: 1rem;
-    height: 1rem;
-}
-.user{
-    padding-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: center;
-    border-top: 1px solid #2E4058;
-    font-size: 1rem;
-    color: var(--softblue);
+.card__title {
+  font-size: 1.25rem;
+  font-weight: var(--fw-bold);
+  color: var(--white);
 }
 
-.image-avatar{
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 2px solid #CCCECD;
-    border-radius: 50%;
+.card__desc {
+  font-weight: var(--fw-light);
+  color: var(--softblue);
+  font-size: 0.95rem;
+  line-height: 1.5rem;
 }
-.highlight{
-    color: var(--white);
+.card__details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.highlight:hover{
-    color: var(--cyan);
+.desc {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: var(--fw-normal);
+}
+.prize {
+  color: var(--cyan);
+}
+.duration {
+  color: var(--softblue);
+}
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+.user {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  border-top: 1px solid #2e4058;
+  font-size: 1rem;
+  color: var(--softblue);
+}
+
+.image-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #cccecd;
+  border-radius: 50%;
+}
+.highlight {
+  color: var(--white);
+}
+.highlight:hover {
+  color: var(--cyan);
 }
 .attribution {
-    text-align: center;
-    padding: 1rem;
-    background-color: #515659;
-    color: #97a3a6;
-    font-family: var(--ff-p);
+  text-align: center;
+  padding: 1rem;
+  background-color: #515659;
+  color: #97a3a6;
+  font-family: var(--ff-p);
 }
 .attribution a {
-    text-decoration: none;
-    color: #97a3a6;
-    padding: 0.15rem;
-    border-bottom: 1px solid #97a3a6;
+  text-decoration: none;
+  color: #97a3a6;
+  padding: 0.15rem;
+  border-bottom: 1px solid #97a3a6;
 }
 .attribution a:hover {
-    border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
-@media (min-width:900px){
-    .card{
-        max-width: 349px;
-    }
+@media (min-width: 900px) {
+  .card {
+    max-width: 349px;
+  }
 }

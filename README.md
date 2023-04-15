@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [NFT Preview Card](https://github.com/Onengiye/super-duper-guacamole)
+- Live Site URL: [NFT Preview Card](https://onengiye.github.io/super-duper-guacamole/)
 
 ### Built with
 
